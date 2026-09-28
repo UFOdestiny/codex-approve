@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PermissionRequest": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${PLUGIN_ROOT}/hooks/auto_approve.py",
+            "timeout": 3,
+            "statusMessage": "Checking configured approval policy"
+          }
+        ]
+      }
+    ]
+  }
+}

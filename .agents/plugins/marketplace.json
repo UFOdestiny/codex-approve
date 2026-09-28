@@ -1,0 +1,20 @@
+{
+  "name": "codex-auto-approve-local",
+  "interface": {
+    "displayName": "Codex Auto Approve (Local)"
+  },
+  "plugins": [
+    {
+      "name": "codex-auto-approve",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-auto-approve"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

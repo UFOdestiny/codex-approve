@@ -1,0 +1,15 @@
+{
+  "name": "codex-auto-approve",
+  "version": "0.1.0",
+  "description": "Configurable approval policy for Codex PermissionRequest hooks.",
+  "author": { "name": "Local" },
+  "interface": {
+    "displayName": "Codex Auto Approve",
+    "shortDescription": "Apply a configurable approval policy to Codex permission requests.",
+    "longDescription": "Automatically approves sandbox requests according to a configurable policy, with per-project overrides.",
+    "developerName": "Local",
+    "category": "Productivity",
+    "capabilities": ["PermissionRequest hook"],
+    "defaultPrompt": ["Configure the Codex Auto Approve policy for this project."]
+  }
+}
